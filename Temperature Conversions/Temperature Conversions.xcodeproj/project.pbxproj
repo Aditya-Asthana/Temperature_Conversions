@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA8301D244713A100B1B94A /* TemperatureConversionBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8301B244713A000B1B94A /* TemperatureConversionBackground.png */; };
+		ADA83020244713A700B1B94A /* TemperatureConversionBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8301E244713A600B1B94A /* TemperatureConversionBackground2.png */; };
+		ADBE9327234C506D00C6B59A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE9326234C506D00C6B59A /* AppDelegate.swift */; };
+		ADBE9329234C506D00C6B59A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE9328234C506D00C6B59A /* ViewController.swift */; };
+		ADBE932C234C506D00C6B59A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBE932A234C506D00C6B59A /* Main.storyboard */; };
+		ADBE932E234C506F00C6B59A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBE932D234C506F00C6B59A /* Assets.xcassets */; };
+		ADBE9331234C506F00C6B59A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBE932F234C506F00C6B59A /* LaunchScreen.storyboard */; };
+		ADBE933C234C506F00C6B59A /* Temperature_ConversionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE933B234C506F00C6B59A /* Temperature_ConversionsTests.swift */; };
+		ADBE9347234C506F00C6B59A /* Temperature_ConversionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE9346234C506F00C6B59A /* Temperature_ConversionsUITests.swift */; };
+		ADBE935B234C5AA300C6B59A /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE935A234C5AA300C6B59A /* SecondView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADBE9338234C506F00C6B59A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBE931B234C506D00C6B59A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADBE9322234C506D00C6B59A;
+			remoteInfo = "Temperature Conversions";
+		};
+		ADBE9343234C506F00C6B59A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBE931B234C506D00C6B59A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADBE9322234C506D00C6B59A;
+			remoteInfo = "Temperature Conversions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADA8301C244713A000B1B94A /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/TemperatureConversionBackground.png; sourceTree = "<group>"; };
+		ADA8301F244713A600B1B94A /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/TemperatureConversionBackground2.png; sourceTree = "<group>"; };
+		ADBE9323234C506D00C6B59A /* Temperature Conversions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Temperature Conversions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBE9326234C506D00C6B59A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADBE9328234C506D00C6B59A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADBE932B234C506D00C6B59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADBE932D234C506F00C6B59A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADBE9330234C506F00C6B59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADBE9332234C506F00C6B59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBE9337234C506F00C6B59A /* Temperature ConversionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Temperature ConversionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBE933B234C506F00C6B59A /* Temperature_ConversionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature_ConversionsTests.swift; sourceTree = "<group>"; };
+		ADBE933D234C506F00C6B59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBE9342234C506F00C6B59A /* Temperature ConversionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Temperature ConversionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBE9346234C506F00C6B59A /* Temperature_ConversionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature_ConversionsUITests.swift; sourceTree = "<group>"; };
+		ADBE9348234C506F00C6B59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBE935A234C5AA300C6B59A /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADBE9320234C506D00C6B59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBE9334234C506F00C6B59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBE933F234C506F00C6B59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADBE931A234C506D00C6B59A = {
+			isa = PBXGroup;
+			children = (
+				ADBE9325234C506D00C6B59A /* Temperature Conversions */,
+				ADBE933A234C506F00C6B59A /* Temperature ConversionsTests */,
+				ADBE9345234C506F00C6B59A /* Temperature ConversionsUITests */,
+				ADBE9324234C506D00C6B59A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADBE9324234C506D00C6B59A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE9323234C506D00C6B59A /* Temperature Conversions.app */,
+				ADBE9337234C506F00C6B59A /* Temperature ConversionsTests.xctest */,
+				ADBE9342234C506F00C6B59A /* Temperature ConversionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADBE9325234C506D00C6B59A /* Temperature Conversions */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE9326234C506D00C6B59A /* AppDelegate.swift */,
+				ADBE935A234C5AA300C6B59A /* SecondView.swift */,
+				ADBE9328234C506D00C6B59A /* ViewController.swift */,
+				ADBE932A234C506D00C6B59A /* Main.storyboard */,
+				ADBE932D234C506F00C6B59A /* Assets.xcassets */,
+				ADBE932F234C506F00C6B59A /* LaunchScreen.storyboard */,
+				ADBE9332234C506F00C6B59A /* Info.plist */,
+				ADA8301E244713A600B1B94A /* TemperatureConversionBackground2.png */,
+				ADA8301B244713A000B1B94A /* TemperatureConversionBackground.png */,
+			);
+			path = "Temperature Conversions";
+			sourceTree = "<group>";
+		};
+		ADBE933A234C506F00C6B59A /* Temperature ConversionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE933B234C506F00C6B59A /* Temperature_ConversionsTests.swift */,
+				ADBE933D234C506F00C6B59A /* Info.plist */,
+			);
+			path = "Temperature ConversionsTests";
+			sourceTree = "<group>";
+		};
+		ADBE9345234C506F00C6B59A /* Temperature ConversionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE9346234C506F00C6B59A /* Temperature_ConversionsUITests.swift */,
+				ADBE9348234C506F00C6B59A /* Info.plist */,
+			);
+			path = "Temperature ConversionsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADBE9322234C506D00C6B59A /* Temperature Conversions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBE934B234C506F00C6B59A /* Build configuration list for PBXNativeTarget "Temperature Conversions" */;
+			buildPhases = (
+				ADBE931F234C506D00C6B59A /* Sources */,
+				ADBE9320234C506D00C6B59A /* Frameworks */,
+				ADBE9321234C506D00C6B59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Temperature Conversions";
+			productName = "Temperature Conversions";
+			productReference = ADBE9323234C506D00C6B59A /* Temperature Conversions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADBE9336234C506F00C6B59A /* Temperature ConversionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBE934E234C506F00C6B59A /* Build configuration list for PBXNativeTarget "Temperature ConversionsTests" */;
+			buildPhases = (
+				ADBE9333234C506F00C6B59A /* Sources */,
+				ADBE9334234C506F00C6B59A /* Frameworks */,
+				ADBE9335234C506F00C6B59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADBE9339234C506F00C6B59A /* PBXTargetDependency */,
+			);
+			name = "Temperature ConversionsTests";
+			productName = "Temperature ConversionsTests";
+			productReference = ADBE9337234C506F00C6B59A /* Temperature ConversionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADBE9341234C506F00C6B59A /* Temperature ConversionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBE9351234C506F00C6B59A /* Build configuration list for PBXNativeTarget "Temperature ConversionsUITests" */;
+			buildPhases = (
+				ADBE933E234C506F00C6B59A /* Sources */,
+				ADBE933F234C506F00C6B59A /* Frameworks */,
+				ADBE9340234C506F00C6B59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADBE9344234C506F00C6B59A /* PBXTargetDependency */,
+			);
+			name = "Temperature ConversionsUITests";
+			productName = "Temperature ConversionsUITests";
+			productReference = ADBE9342234C506F00C6B59A /* Temperature ConversionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADBE931B234C506D00C6B59A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Aditya Asthana & Siddharth Sharma";
+				TargetAttributes = {
+					ADBE9322234C506D00C6B59A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					ADBE9336234C506F00C6B59A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = ADBE9322234C506D00C6B59A;
+					};
+					ADBE9341234C506F00C6B59A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = ADBE9322234C506D00C6B59A;
+					};
+				};
+			};
+			buildConfigurationList = ADBE931E234C506D00C6B59A /* Build configuration list for PBXProject "Temperature Conversions" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADBE931A234C506D00C6B59A;
+			productRefGroup = ADBE9324234C506D00C6B59A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADBE9322234C506D00C6B59A /* Temperature Conversions */,
+				ADBE9336234C506F00C6B59A /* Temperature ConversionsTests */,
+				ADBE9341234C506F00C6B59A /* Temperature ConversionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADBE9321234C506D00C6B59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA83020244713A700B1B94A /* TemperatureConversionBackground2.png in Resources */,
+				ADBE9331234C506F00C6B59A /* LaunchScreen.storyboard in Resources */,
+				ADA8301D244713A100B1B94A /* TemperatureConversionBackground.png in Resources */,
+				ADBE932E234C506F00C6B59A /* Assets.xcassets in Resources */,
+				ADBE932C234C506D00C6B59A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBE9335234C506F00C6B59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBE9340234C506F00C6B59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADBE931F234C506D00C6B59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBE935B234C5AA300C6B59A /* SecondView.swift in Sources */,
+				ADBE9329234C506D00C6B59A /* ViewController.swift in Sources */,
+				ADBE9327234C506D00C6B59A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBE9333234C506F00C6B59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBE933C234C506F00C6B59A /* Temperature_ConversionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBE933E234C506F00C6B59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBE9347234C506F00C6B59A /* Temperature_ConversionsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADBE9339234C506F00C6B59A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADBE9322234C506D00C6B59A /* Temperature Conversions */;
+			targetProxy = ADBE9338234C506F00C6B59A /* PBXContainerItemProxy */;
+		};
+		ADBE9344234C506F00C6B59A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADBE9322234C506D00C6B59A /* Temperature Conversions */;
+			targetProxy = ADBE9343234C506F00C6B59A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADA8301B244713A000B1B94A /* TemperatureConversionBackground.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA8301C244713A000B1B94A /* Base */,
+			);
+			name = TemperatureConversionBackground.png;
+			sourceTree = "<group>";
+		};
+		ADA8301E244713A600B1B94A /* TemperatureConversionBackground2.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA8301F244713A600B1B94A /* Base */,
+			);
+			name = TemperatureConversionBackground2.png;
+			sourceTree = "<group>";
+		};
+		ADBE932A234C506D00C6B59A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBE932B234C506D00C6B59A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADBE932F234C506F00C6B59A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBE9330234C506F00C6B59A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADBE9349234C506F00C6B59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADBE934A234C506F00C6B59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADBE934C234C506F00C6B59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YXC8AUWD8;
+				INFOPLIST_FILE = "Temperature Conversions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adityaasthana-siddharthsharma.Temperature-Conversions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADBE934D234C506F00C6B59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YXC8AUWD8;
+				INFOPLIST_FILE = "Temperature Conversions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adityaasthana-siddharthsharma.Temperature-Conversions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADBE934F234C506F00C6B59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YXC8AUWD8;
+				INFOPLIST_FILE = "Temperature ConversionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adityaasthana-siddharthsharma.Temperature-ConversionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Temperature Conversions.app/Temperature Conversions";
+			};
+			name = Debug;
+		};
+		ADBE9350234C506F00C6B59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YXC8AUWD8;
+				INFOPLIST_FILE = "Temperature ConversionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adityaasthana-siddharthsharma.Temperature-ConversionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Temperature Conversions.app/Temperature Conversions";
+			};
+			name = Release;
+		};
+		ADBE9352234C506F00C6B59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YXC8AUWD8;
+				INFOPLIST_FILE = "Temperature ConversionsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adityaasthana-siddharthsharma.Temperature-ConversionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Temperature Conversions";
+			};
+			name = Debug;
+		};
+		ADBE9353234C506F00C6B59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YXC8AUWD8;
+				INFOPLIST_FILE = "Temperature ConversionsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adityaasthana-siddharthsharma.Temperature-ConversionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Temperature Conversions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADBE931E234C506D00C6B59A /* Build configuration list for PBXProject "Temperature Conversions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBE9349234C506F00C6B59A /* Debug */,
+				ADBE934A234C506F00C6B59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBE934B234C506F00C6B59A /* Build configuration list for PBXNativeTarget "Temperature Conversions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBE934C234C506F00C6B59A /* Debug */,
+				ADBE934D234C506F00C6B59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBE934E234C506F00C6B59A /* Build configuration list for PBXNativeTarget "Temperature ConversionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBE934F234C506F00C6B59A /* Debug */,
+				ADBE9350234C506F00C6B59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBE9351234C506F00C6B59A /* Build configuration list for PBXNativeTarget "Temperature ConversionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBE9352234C506F00C6B59A /* Debug */,
+				ADBE9353234C506F00C6B59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADBE931B234C506D00C6B59A /* Project object */;
+}
